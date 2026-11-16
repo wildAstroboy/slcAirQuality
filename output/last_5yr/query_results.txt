@@ -1,0 +1,42 @@
+##### last_5yr: 2020 to 2024 #####
+
+== Days over the standard, by year ==
+ year  days_over  days_measured
+ 2020          1            366
+ 2021          8            365
+ 2022          3            365
+ 2023          2            365
+ 2024          1            366
+
+== Average PM2.5 by month ==
+ month  avg_pm25
+     1       9.2
+     2       6.9
+     3       4.3
+     4       4.9
+     5       5.5
+     6       7.0
+     7       9.8
+     8      11.1
+     9       9.3
+    10       7.2
+    11       8.0
+    12      11.8
+
+== Winter days: cold vs. mild (split at 0 C average) ==
+         temp_group  days  avg_pm25  days_over
+   cold (below 0 C)   153      11.0          3
+mild (0 C or above)   299       8.5          4
+
+== Worst 10 days ==
+      date  pm25  tavg_c
+2021-08-06  49.7    25.6
+2020-08-21  46.8    28.6
+2021-08-18  46.5    18.1
+2021-08-07  44.7    23.6
+2023-02-04  44.3     0.3
+2021-08-16  42.9    28.1
+2021-08-15  42.4    28.3
+2023-02-03  41.4    -1.7
+2021-08-08  41.1    27.8
+2021-12-22  40.7    -5.0
